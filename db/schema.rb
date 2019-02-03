@@ -26,22 +26,4 @@ ActiveRecord::Schema.define(version: 2019_02_03_195928) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "computers", force: :cascade do |t|
-    t.string "PC_NAME"
-    t.integer "PC_CPU"
-    t.integer "PC_GPU"
-    t.integer "PC_RAM"
-    t.integer "PC_DISCO"
-  end
-
-  create_table "posts", force: :cascade do |t|
-    t.string "PC_NAME"
-    t.integer "PC_RAM"
-    t.integer "PC_CPU"
-    t.integer "PC_GPU"
-    t.integer "PC_DISCO"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
