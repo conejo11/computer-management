@@ -1,0 +1,71 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+img {
+  height:100%;
+  width:100%;
+}
+
+input {
+  padding: 15px 150px;
+  border-radius: 50px;
+  border-color: #000000;
+  border-width: thin;
+  opacity: 0.3;
+}
+
+input:focus:valid{
+  opacity: 1;
+}
+
+input:invalid {
+  border-color:#ffdddd;
+}
+
+button {
+  padding: 4px 15px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.05), 0       6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.a-orange {
+  color: #f96331;
+}
+
+.button-white{
+  background-color: #ffffff;
+}
+
+.button-white:hover{
+  color:#f96331;
+  opacity: 0.8;
+}
+
+.button-orange{
+  background-color: #f96331;
+  color: #ffffff;
+}
+
+.button-orange:hover{
+   background-color: #D1532A;
+}
+
+.card {
+  border-style: solid;
+  border-width: thin;
+}
+
+.head {
+  width: 100%;
+  background-color: #f96331;
+}
+
+.form-conteiner{
+  display: grid;
+  place-items: center;
+  height: 50vh;
+}
