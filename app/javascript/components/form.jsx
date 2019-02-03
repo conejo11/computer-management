@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {withRouter} from "react-router-dom"
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Header from './header'
 
 class FormComputer extends React.Component {
   constructor(props) {
@@ -17,7 +18,6 @@ class FormComputer extends React.Component {
   handleRedirect = () => {
     this.props.history.push("./computer-list");
   };
-
 
   handleChange(event) {
     const target = event.target;
@@ -53,8 +53,8 @@ class FormComputer extends React.Component {
           <input  onChange={this.handleChange} ref="description" placeholder="Enter a description" />
         </div>
         <div>
-        <button className='button-white' onClick={this.handleRedirect}><a className='a-orange'>VOLTAR</a></button>
-        <button className='button-orange' onClick={this.handleSubmit}>ADICIONAR</button>
+          <button className='button-white' onClick={this.handleRedirect}><a className='a-orange'>VOLTAR</a></button>
+          <button className='button-orange' onClick={this.handleSubmit}>ADICIONAR</button>
         </div>
       </div>
     );
