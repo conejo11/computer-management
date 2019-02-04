@@ -15,10 +15,6 @@ class FormComputer extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleRedirect = () => {
-    this.props.history.push("./computer-list");
-  };
-
   handleChange(event) {
     const target = event.target;
     const value = target.value;
@@ -53,7 +49,7 @@ class FormComputer extends React.Component {
           <input  onChange={this.handleChange} ref="description" placeholder="Enter a description" />
         </div>
         <div>
-          <button className='button-white' onClick={this.handleRedirect}><a className='a-orange'>VOLTAR</a></button>
+          <button className='button-white' ><a className='a-orange'>VOLTAR</a></button>
           <button className='button-orange' onClick={this.handleSubmit}>ADICIONAR</button>
         </div>
       </div>

@@ -1,0 +1,791 @@
+Started GET "/" for 177.2.2.200 at 2019-02-04 12:37:33 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (FATAL:  Peer authentication failed for user "computer_manager"
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1010:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:06:44 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+PG::ConnectionBad (FATAL:  Peer authentication failed for user "computer_manager"
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1010:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE "computer_manager_development" ENCODING = 'unicode'[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (32.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3788949414125998395)[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateCategories (20190203195928)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (9.2ms)[0m  [1m[35mCREATE TABLE "categories" ("id" bigserial primary key, "PC_NAME" character varying, "PC_CPU" integer, "PC_GPU" integer, "PC_RAM" integer, "PC_DISC" integer, "PC_AREA" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190203195928_create_categories.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190203195928"]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-02-04 13:11:20.170519"], ["updated_at", "2019-02-04 13:11:20.170519"]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(3788949414125998395)[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:11:38 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:11:38 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 02009fd13e553d137a24
+Version: webpack 3.12.0
+Time: 1058ms
+                                  Asset       Size  Chunks             Chunk Names
+           list-b900ac56deb67f0cb80c.js    3.03 kB       0  [emitted]  list
+    application-d679696540b69a452d74.js    3.27 kB       1  [emitted]  application
+            app-e25c49021ddd10dac413.js    3.02 kB       2  [emitted]  app
+       list-b900ac56deb67f0cb80c.js.map    2.49 kB       0  [emitted]  list
+application-d679696540b69a452d74.js.map    3.19 kB       1  [emitted]  application
+        app-e25c49021ddd10dac413.js.map    2.48 kB       2  [emitted]  app
+                          manifest.json  362 bytes          [emitted]  
+   [0] ./app/javascript/packs/app.jsx 304 bytes {2} [built] [failed] [1 error]
+   [1] ./app/javascript/packs/application.js 515 bytes {1} [built]
+   [2] ./app/javascript/packs/list.jsx 303 bytes {0} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/app.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <FirstPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+ERROR in ./app/javascript/packs/list.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <ListPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+  Rendered pages/computer-list.html.erb within layouts/application (3272.7ms)
+[Webpacker] Compilation failed:
+
+Hash: 02009fd13e553d137a24
+Version: webpack 3.12.0
+Time: 791ms
+                                  Asset       Size  Chunks             Chunk Names
+           list-b900ac56deb67f0cb80c.js    3.03 kB       0  [emitted]  list
+    application-d679696540b69a452d74.js    3.27 kB       1  [emitted]  application
+            app-e25c49021ddd10dac413.js    3.02 kB       2  [emitted]  app
+       list-b900ac56deb67f0cb80c.js.map    2.49 kB       0  [emitted]  list
+application-d679696540b69a452d74.js.map    3.19 kB       1  [emitted]  application
+        app-e25c49021ddd10dac413.js.map    2.48 kB       2  [emitted]  app
+                          manifest.json  362 bytes          [emitted]  
+   [0] ./app/javascript/packs/app.jsx 304 bytes {2} [built] [failed] [1 error]
+   [1] ./app/javascript/packs/application.js 515 bytes {1} [built]
+   [2] ./app/javascript/packs/list.jsx 303 bytes {0} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/app.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <FirstPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+ERROR in ./app/javascript/packs/list.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <ListPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+  Rendered pages/computer-list.html.erb within layouts/application (3337.7ms)
+Completed 200 OK in 7003ms (Views: 6995.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6299ms (Views: 6298.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:12:12 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 02009fd13e553d137a24
+Version: webpack 3.12.0
+Time: 390ms
+                                  Asset       Size  Chunks             Chunk Names
+           list-b900ac56deb67f0cb80c.js    3.03 kB       0  [emitted]  list
+    application-d679696540b69a452d74.js    3.27 kB       1  [emitted]  application
+            app-e25c49021ddd10dac413.js    3.02 kB       2  [emitted]  app
+       list-b900ac56deb67f0cb80c.js.map    2.49 kB       0  [emitted]  list
+application-d679696540b69a452d74.js.map    3.19 kB       1  [emitted]  application
+        app-e25c49021ddd10dac413.js.map    2.48 kB       2  [emitted]  app
+                          manifest.json  362 bytes          [emitted]  
+   [0] ./app/javascript/packs/app.jsx 304 bytes {2} [built] [failed] [1 error]
+   [1] ./app/javascript/packs/application.js 515 bytes {1} [built]
+   [2] ./app/javascript/packs/list.jsx 303 bytes {0} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/app.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <FirstPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+ERROR in ./app/javascript/packs/list.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <ListPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+  Rendered pages/computer-list.html.erb within layouts/application (1655.5ms)
+Completed 200 OK in 1670ms (Views: 1669.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:13:06 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 02009fd13e553d137a24
+Version: webpack 3.12.0
+Time: 404ms
+                                  Asset       Size  Chunks             Chunk Names
+           list-b900ac56deb67f0cb80c.js    3.03 kB       0  [emitted]  list
+    application-d679696540b69a452d74.js    3.27 kB       1  [emitted]  application
+            app-e25c49021ddd10dac413.js    3.02 kB       2  [emitted]  app
+       list-b900ac56deb67f0cb80c.js.map    2.49 kB       0  [emitted]  list
+application-d679696540b69a452d74.js.map    3.19 kB       1  [emitted]  application
+        app-e25c49021ddd10dac413.js.map    2.48 kB       2  [emitted]  app
+                          manifest.json  362 bytes          [emitted]  
+   [0] ./app/javascript/packs/app.jsx 304 bytes {2} [built] [failed] [1 error]
+   [1] ./app/javascript/packs/application.js 515 bytes {1} [built]
+   [2] ./app/javascript/packs/list.jsx 303 bytes {0} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/app.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <FirstPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+ERROR in ./app/javascript/packs/list.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <ListPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+  Rendered pages/computer-list.html.erb within layouts/application (1688.3ms)
+Completed 200 OK in 2702ms (Views: 2695.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:14:08 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 02009fd13e553d137a24
+Version: webpack 3.12.0
+Time: 385ms
+                                  Asset       Size  Chunks             Chunk Names
+           list-b900ac56deb67f0cb80c.js    3.03 kB       0  [emitted]  list
+    application-d679696540b69a452d74.js    3.27 kB       1  [emitted]  application
+            app-e25c49021ddd10dac413.js    3.02 kB       2  [emitted]  app
+       list-b900ac56deb67f0cb80c.js.map    2.49 kB       0  [emitted]  list
+application-d679696540b69a452d74.js.map    3.19 kB       1  [emitted]  application
+        app-e25c49021ddd10dac413.js.map    2.48 kB       2  [emitted]  app
+                          manifest.json  362 bytes          [emitted]  
+   [0] ./app/javascript/packs/app.jsx 304 bytes {2} [built] [failed] [1 error]
+   [1] ./app/javascript/packs/application.js 515 bytes {1} [built]
+   [2] ./app/javascript/packs/list.jsx 303 bytes {0} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/app.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <FirstPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+ERROR in ./app/javascript/packs/list.jsx
+Module build failed: SyntaxError: Unexpected token (8:4)
+
+   6 | document.addEventListener('DOMContentLoaded', () => {
+   7 |   ReactDOM.render(
+>  8 |     <ListPage />,
+     |     ^
+   9 |     document.body.appendChild(document.createElement('div')),
+  10 |   )
+  11 | });
+
+
+  Rendered pages/computer-list.html.erb within layouts/application (1645.2ms)
+Completed 200 OK in 2642ms (Views: 2635.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:15:36 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 571c26ce57ca49409723
+Version: webpack 3.12.0
+Time: 2504ms
+                                  Asset       Size  Chunks                    Chunk Names
+            app-f0fed65daeb3eeac7530.js     883 kB       0  [emitted]  [big]  app
+           list-93da27f1fea48f66e093.js     886 kB       1  [emitted]  [big]  list
+    hello_react-18f63b7b7d3a8e04bc59.js     875 kB       2  [emitted]  [big]  hello_react
+    application-dfb2e99c6af30ef9d6ff.js    3.27 kB       3  [emitted]         application
+        app-f0fed65daeb3eeac7530.js.map    1.02 MB       0  [emitted]         app
+       list-93da27f1fea48f66e093.js.map    1.02 MB       1  [emitted]         list
+hello_react-18f63b7b7d3a8e04bc59.js.map    1.02 MB       2  [emitted]         hello_react
+application-dfb2e99c6af30ef9d6ff.js.map    3.19 kB       3  [emitted]         application
+                          manifest.json  502 bytes          [emitted]         
+  [10] (webpack)/buildin/global.js 509 bytes {0} {1} {2} [built]
+  [15] ./app/javascript/packs/app.jsx 326 bytes {0} [built]
+  [18] ./app/javascript/packs/application.js 515 bytes {3} [built]
+  [19] ./app/javascript/packs/hello_react.jsx 739 bytes {2} [built]
+  [20] ./app/javascript/packs/list.jsx 323 bytes {1} [built]
+    + 18 hidden modules
+
+ERROR in ./app/javascript/components/form.jsx
+Module build failed: SyntaxError: Unexpected token (18:17)
+
+  16 |   }
+  17 | 
+> 18 |   handleRedirect = () => {
+     |                  ^
+  19 |     this.props.history.push("./computer-list");
+  20 |   };
+  21 | 
+
+ @ ./app/javascript/components/first-page.jsx 13:0-34
+ @ ./app/javascript/packs/app.jsx
+
+  Rendered pages/computer-list.html.erb within layouts/application (3782.7ms)
+Completed 200 OK in 4776ms (Views: 4769.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:16:56 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/computer-management/public/packs
+  Rendered pages/computer-list.html.erb within layouts/application (4032.8ms)
+Completed 200 OK in 5018ms (Views: 5010.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:19:26 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+  Rendered pages/computer-list.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:19:36 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+  Rendered pages/computer-list.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:19:57 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+  Rendered pages/computer-list.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:33:36 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/computer-management/public/packs
+  Rendered pages/computer-list.html.erb within layouts/application (5180.4ms)
+Completed 200 OK in 5220ms (Views: 5219.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lala.jpg" for 177.2.2.200 at 2019-02-04 13:33:49 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/lala.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:37:01 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+AbstractController::ActionNotFound (The action 'app' could not be found for PagesController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:37:27 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'app' could not be found for PagesController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:37:32 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+AbstractController::ActionNotFound (The action 'app' could not be found for PagesController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:38:20 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+  Rendered pages/computer-list.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1894ms (Views: 1887.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:38:37 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+  Rendered pages/computer-list.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lala.jpg" for 177.2.2.200 at 2019-02-04 13:38:41 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/lala.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 177.2.2.200 at 2019-02-04 13:38:50 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#computer-list as HTML
+  Rendering pages/computer-list.html.erb within layouts/application
+  Rendered pages/computer-list.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lala.jpg" for 177.2.2.200 at 2019-02-04 13:38:51 +0000
+Cannot render console from 177.2.2.200! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/lala.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
