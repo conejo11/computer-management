@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   # get 'components/content-index'
+  
+  resources :pages
+  
   root 'pages#computer-list'
-  # root 'pages#app'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  
+  get 'computer_list' => 'pages#computer-list', action: :computer_list, controller: 'pages'
+  get 'index' => 'pages#index', action: :index, controller: 'pages'
 end

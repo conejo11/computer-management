@@ -9,7 +9,6 @@ class ListPage extends React.Component {
     return(
       <div>
         <Header />
-        <List />
       </div>
     );
   }

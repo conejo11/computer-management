@@ -37,7 +37,12 @@ button {
 }
 
 .button-white{
+  padding: 4px 15px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.05), 0       6px 20px 0 rgba(0,0,0,0.19);
   background-color: #ffffff;
+  text-decoration: none;
 }
 
 .button-white:hover{

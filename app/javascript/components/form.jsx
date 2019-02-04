@@ -49,7 +49,6 @@ class FormComputer extends React.Component {
           <input  onChange={this.handleChange} ref="description" placeholder="Enter a description" />
         </div>
         <div>
-          <button className='button-white' ><a className='a-orange'>VOLTAR</a></button>
           <button className='button-orange' onClick={this.handleSubmit}>ADICIONAR</button>
         </div>
       </div>
