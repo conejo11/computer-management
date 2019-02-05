@@ -4,9 +4,20 @@ html,body {
   border: 0px;
 }
 
+h4 {
+  text-align: left;
+  display: inline;
+  margin-right: 10px;
+}
+
 img {
-  height:100%;
-  width:100%;
+  // height:100%;
+  // width:100%;
+  display:inline
+}
+
+.image-class {
+  padding: 15px 10px;
 }
 
 input {
@@ -15,6 +26,7 @@ input {
   border-color: #000000;
   border-width: thin;
   opacity: 0.3;
+  margin-right: 30px;
 }
 
 input:focus:valid{
@@ -38,11 +50,13 @@ button {
 
 .button-white{
   padding: 4px 15px;
+  display:inline;
   border: 0;
   border-radius: 50px;
   box-shadow: 0 8px 20px 0 rgba(0,0,0,0.05), 0       6px 20px 0 rgba(0,0,0,0.19);
   background-color: #ffffff;
   text-decoration: none;
+  margin-right: 30px;
 }
 
 .button-white:hover{
@@ -67,6 +81,14 @@ button {
 .head {
   width: 100%;
   background-color: #f96331;
+}
+
+.header-title-conteiner {
+  display:inline;
+}
+
+.header-title{
+  display:inline;
 }
 
 .form-conteiner{
