@@ -1,7 +1,5 @@
-html,body {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+html, body {
+  padding: 0 0;
 }
 
 h4 {
@@ -11,9 +9,10 @@ h4 {
 }
 
 img {
-  // height:100%;
-  // width:100%;
-  display:inline
+  float:left;
+  height:74px;
+  width:100px;
+
 }
 
 .image-class {
@@ -44,24 +43,32 @@ button {
   box-shadow: 0 8px 20px 0 rgba(0,0,0,0.05), 0       6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.a-orange {
-  color: #f96331;
-}
+// .a-orange {
+//   color: #f96331;
+//   text-decoration: none;
+// }
+
+// .a-orange:hover {
+//   text-decoration: none;
+//   background-color: none;
+// }
 
 .button-white{
   padding: 4px 15px;
   display:inline;
   border: 0;
+  text-decoration: none;
   border-radius: 50px;
   box-shadow: 0 8px 20px 0 rgba(0,0,0,0.05), 0       6px 20px 0 rgba(0,0,0,0.19);
   background-color: #ffffff;
-  text-decoration: none;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .button-white:hover{
   color:#f96331;
   opacity: 0.8;
+  text-decoration: none;
 }
 
 .button-orange{
@@ -76,7 +83,42 @@ button {
 .card {
   border-style: solid;
   border-width: thin;
+  margin-right: 500px;
+  margin-top: 10px;
+  opacity: 0.7;
 }
+
+.card:hover {
+  opacity: 1;
+  box-shadow: -1px 2px 14px 0px rgba(0,0,0,0.75);
+}
+
+.card-conteiner {
+  border-width: thin;
+  display: inline-block;
+  margin-right: 70px;
+  margin-left: 30px;
+}
+
+.card-text {
+  content: "";
+  clear: both;
+  display: table;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.card-text-content {
+  margin-top: 2px;
+}
+
+.card-text-header {
+  color: #f96331 ;
+  display: inline-block;
+  margin-bottom: 5px;
+  opacity: 1;
+}
+
 
 .head {
   width: 100%;
