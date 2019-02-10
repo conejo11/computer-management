@@ -1,0 +1,8 @@
+2019-02-09 18:46:39.175 -02 [1367] LOG:  listening on IPv6 address "::1", port 5432
+2019-02-09 18:46:39.175 -02 [1367] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-02-09 18:46:39.176 -02 [1367] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-02-09 18:46:39.201 -02 [1368] LOG:  database system was shut down at 2019-02-09 10:31:45 -02
+2019-02-09 18:46:39.209 -02 [1367] LOG:  database system is ready to accept connections
+2019-02-09 19:28:08.540 -02 [2668] ERROR:  database "computer_manager_development" is being accessed by other users
+2019-02-09 19:28:08.540 -02 [2668] DETAIL:  There is 1 other session using the database.
+2019-02-09 19:28:08.540 -02 [2668] STATEMENT:  DROP DATABASE IF EXISTS "computer_manager_development"

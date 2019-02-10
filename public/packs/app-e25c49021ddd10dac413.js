@@ -66,7 +66,7 @@
 /******/ ([
 /* 0 */
 /*!**************************************!*\
-  !*** ./app/javascript/packs/app.jsx ***!
+  !*** ./app/javascript/packs/computer_list.jsx ***!
   \**************************************/
 /*! dynamic exports provided */
 /*! all exports used */

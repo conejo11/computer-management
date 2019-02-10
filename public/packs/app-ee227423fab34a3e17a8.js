@@ -28152,7 +28152,7 @@ var FormComputer = function (_React$Component) {
 /***/ }),
 /* 58 */
 /*!**************************************!*\
-  !*** ./app/javascript/packs/app.jsx ***!
+  !*** ./app/javascript/packs/computer_list.jsx ***!
   \**************************************/
 /*! no exports provided */
 /*! all exports used */

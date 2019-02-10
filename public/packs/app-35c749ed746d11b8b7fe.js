@@ -28022,7 +28022,7 @@ throw new Error("Module build failed: SyntaxError: Unexpected token, expected , 
 /***/ }),
 /* 58 */
 /*!**************************************!*\
-  !*** ./app/javascript/packs/app.jsx ***!
+  !*** ./app/javascript/packs/computer_list.jsx ***!
   \**************************************/
 /*! no exports provided */
 /*! all exports used */

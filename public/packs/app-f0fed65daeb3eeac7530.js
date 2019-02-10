@@ -24290,7 +24290,7 @@ var TextHeader = function (_React$Component3) {
 /***/ }),
 /* 15 */
 /*!**************************************!*\
-  !*** ./app/javascript/packs/app.jsx ***!
+  !*** ./app/javascript/packs/computer_list.jsx ***!
   \**************************************/
 /*! no exports provided */
 /*! all exports used */

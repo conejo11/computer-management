@@ -24193,7 +24193,7 @@ throw new Error("Module build failed: SyntaxError: Unexpected token (27:34)\n\n 
 /***/ }),
 /* 15 */
 /*!**************************************!*\
-  !*** ./app/javascript/packs/app.jsx ***!
+  !*** ./app/javascript/packs/computer_list.jsx ***!
   \**************************************/
 /*! no exports provided */
 /*! all exports used */

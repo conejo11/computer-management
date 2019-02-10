@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react"
+import PropTypes from "prop-types"
 import ReactDOM from 'react-dom'
 import {Route, NavLink, BrowserRouter} from "react-router-dom";
 
@@ -17,29 +18,35 @@ class RouteIndex extends React.Component {
   render (){
     return (
       <BrowserRouter>
-      <div>       
+      <div>
         <header className="head">
-          <TextHeader/>
+            <TextHeader/>
             <NavLink className="button-white" to="/index">ADICIONAR COMPUTADOR</NavLink>
             <NavLink className="button-white" to="/computer_list">LISTA DE COMPUTADORES</NavLink>
         </header>
         <div>
-            <Route exact path="/" component={List} />
+            <Route
+                exact path="/"
+                render={(props) => <List {...props} />}
+            />
             <Route path="/index" component={FormComputer} />
-            <Route path="/computer_list" component={List} />
-        </div>   
-      </div>  
+            <Route
+                path="/computer_list"
+                render={(props) => <List {...props} />}
+            />
+        </div>
+      </div>
       </BrowserRouter>
     );
-  } 
+  }
 }
 
 class TextHeader extends React.Component {
   render (){
     return(
       <div className="header-title-conteiner">
-        <h2>Listagem de</h2>
-        <h1 className="header-title">Computadores</h1>
+        <h2>LISTAGEM DE</h2>
+        <h1 className="header-title">COMPUTADORES</h1>
       </div>
     );
   }

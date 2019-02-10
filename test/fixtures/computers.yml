@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cpu: 1
+  gpu: 1
+  ram: 1
+  disk: 1
+  image_data: MyText
+
+two:
+  name: MyString
+  cpu: 1
+  gpu: 1
+  ram: 1
+  disk: 1
+  image_data: MyText

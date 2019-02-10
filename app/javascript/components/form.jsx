@@ -29,41 +29,20 @@ class FormComputer extends React.Component {
   }
 
   handleSubmit(event) {
-    let area;
-    if((parseInt(this.formFields.cpu.value) > 16) && (parseInt(this.formFields.gpu.value) > 3) && (parseInt(this.formFields.ram.value) > 32) && (parseInt(this.formFields.disc.value) > 480)) {
-      area = '3D';
-    } else if((parseInt(this.formFields.cpu.value) > 8) && (parseInt(this.formFields.gpu.value) > 2) && (parseInt(this.formFields.ram.value) > 16) && (parseInt(this.formFields.disc.value) > 240)) {
-      area = 'Animação';
-    } else if((parseInt(this.formFields.cpu.value) > 6) && (parseInt(this.formFields.gpu.value) > 1) && (parseInt(this.formFields.ram.value) > 8) && (parseInt(this.formFields.disc.value) > 240)) {
-      area = 'Design';
-    } else if((parseInt(this.formFields.cpu.value) > 4) && (parseInt(this.formFields.gpu.value) > 0) && (parseInt(this.formFields.ram.value) > 8) && (parseInt(this.formFields.disc.value) > 120)) {
-      area = 'Desenvolvimento';
-    } else if((parseInt(this.formFields.cpu.value) > 1) && (parseInt(this.formFields.gpu.value) > 0) && (parseInt(this.formFields.ram.value) > 4) && (parseInt(this.formFields.disc.value) > 120)) {
-      area = 'Administrativo/Negócios';
-    } else {
-      area = 'Invalido'
-    }
-    
-    console.log("names: " + this.formFields.names.value + "!");
-    console.log("cpu: " + this.formFields.cpu.value + "!");
-    console.log("gpu: " + this.formFields.gpu.value + "!");
-    console.log("ram: " + this.formFields.ram.value + "!");
-    console.log("disc: " + this.formFields.disc.value + "!");
-    console.log("area: " + area + "!");
-    
-    fetch('/create_computer', {
+
+    fetch('/computer_list', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        names: this.formFields.names.value,
+        name: this.formFields.name.value,
         cpu:  this.formFields.cpu.value,
         gpu: this.formFields.gpu.value,
         ram:  this.formFields.ram.value,
-        disc: this.formFields.disc.value,
-        area: area,
+        disk: this.formFields.disk.value,
+        image_data: this.formFields.image_data.value,
       })
     }).then(raw_result => {
       raw_result
@@ -72,32 +51,34 @@ class FormComputer extends React.Component {
           alert(result.message);
         });
     });
-    
-    alert('Sending this information:\n' + 'Name: ' + this.formFields.names.value + '\n' + 'CPU: ' + this.formFields.cpu.value + '\n' + 'GPU: ' + this.formFields.gpu.value + '\n' + 'RAM: ' + this.formFields.ram.value + '\n' + 'DISC: ' + this.formFields.disc.value + '\n' + 'AREA: ' + area);
+
+    alert('Sending this information:\n' + 'Name: ' + this.formFields.name.value + '\n' + 'CPU: ' + this.formFields.cpu.value + '\n' + 'GPU: ' + this.formFields.gpu.value + '\n' + 'RAM: ' + this.formFields.ram.value + '\n' + 'disk: ' + this.formFields.disk.value + '\n' );
     event.preventDefault();
   }
-  
+
 
   render (){
     return(
       <form>
-        <div className='form-conteiner'>
-          <h2>Adicionar Novo Computador</h2>
-          <div>
-            <input ref={input => this.formFields.names = input} onChange={this.handleChange} placeholder="Nome do computador" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Nome do computador"}/>
-            <input ref={input => this.formFields.cpu = input} onChange={this.handleChange}  placeholder="CPU" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "CPU"}/>
-          </div>
-          <div>
-            <input ref={input => this.formFields.gpu = input} onChange={this.handleChange}  placeholder="GPU" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "GPU"}/>
-            <input ref={input => this.formFields.ram = input} onChange={this.handleChange}  placeholder="RAM" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "RAM"}/>
-          </div>
-          <div>
-            <input ref={input => this.formFields.disc = input}  onChange={this.handleChange} placeholder="DISCO" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "DISCO"}/>
-            <h4>FAZER UPLOAD DE IMAGEM</h4>
-            <input  className="image-class" onChange={this.handleChange} ref="description" placeholder="ESCOLHER IMAGEM" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "ESCOLHER IMAGEM"}/>
-          </div>
-          <div>
-            <button className='button-orange' onClick={this.handleSubmit}>ADICIONAR</button>
+        <div>
+          <h2 className='form-title'>Adicionar Novo Computador</h2>
+          <div className='form-conteiner'>
+            <div>
+              <input ref={input => this.formFields.name = input} onChange={this.handleChange} placeholder="Nome do computador" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Nome do computador"}/>
+              <input ref={input => this.formFields.cpu = input} onChange={this.handleChange}  placeholder="CPU" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "CPU"}/>
+            </div>
+            <div>
+              <input ref={input => this.formFields.gpu = input} onChange={this.handleChange}  placeholder="GPU" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "GPU"}/>
+              <input ref={input => this.formFields.ram = input} onChange={this.handleChange}  placeholder="RAM" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "RAM"}/>
+            </div>
+            <div>
+              <input ref={input => this.formFields.disk = input}  onChange={this.handleChange} placeholder="DISCO" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "diskO"}/>
+              <h4>FAZER UPLOAD DE IMAGEM</h4>
+              <input  ref={input => this.formFields.image_data = input} className="image-class" onChange={this.handleChange} placeholder="ESCOLHER IMAGEM" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "ESCOLHER IMAGEM"}/>
+            </div>
+            <div>
+              <button className='button-orange' onClick={this.handleSubmit}><strong>ADICIONAR</strong></button>
+            </div>
           </div>
         </div>
       </form>

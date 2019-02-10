@@ -2169,7 +2169,7 @@ var generatePath = function generatePath() {
 /***/ }),
 /* 24 */
 /*!**************************************!*\
-  !*** ./app/javascript/packs/app.jsx ***!
+  !*** ./app/javascript/packs/computer_list.jsx ***!
   \**************************************/
 /*! no exports provided */
 /*! all exports used */
