@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Header from './header'
 
 class FormComputer extends React.Component {
   constructor(props) {
@@ -30,7 +29,7 @@ class FormComputer extends React.Component {
 
   handleSubmit(event) {
 
-    fetch('/computer_list', {
+    fetch('/create_computer', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -51,6 +50,7 @@ class FormComputer extends React.Component {
           alert(result.message);
         });
     });
+    
 
     alert('Sending this information:\n' + 'Name: ' + this.formFields.name.value + '\n' + 'CPU: ' + this.formFields.cpu.value + '\n' + 'GPU: ' + this.formFields.gpu.value + '\n' + 'RAM: ' + this.formFields.ram.value + '\n' + 'disk: ' + this.formFields.disk.value + '\n' );
     event.preventDefault();
@@ -72,7 +72,7 @@ class FormComputer extends React.Component {
               <input ref={input => this.formFields.ram = input} onChange={this.handleChange}  placeholder="RAM" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "RAM"}/>
             </div>
             <div>
-              <input ref={input => this.formFields.disk = input}  onChange={this.handleChange} placeholder="DISCO" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "diskO"}/>
+              <input ref={input => this.formFields.disk = input}  onChange={this.handleChange} placeholder="DISCO" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "DISCO"}/>
               <h4>FAZER UPLOAD DE IMAGEM</h4>
               <input  ref={input => this.formFields.image_data = input} className="image-class" onChange={this.handleChange} placeholder="ESCOLHER IMAGEM" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "ESCOLHER IMAGEM"}/>
             </div>
