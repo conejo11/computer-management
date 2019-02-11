@@ -16,6 +16,11 @@ class ComputerList extends React.Component {
 }
 
 class RouteIndex extends React.Component {
+  
+  handleClick() {
+    this.setState({ state: this.state });
+  }
+  
   render (){
     return (
         <BrowserRouter>
@@ -24,7 +29,7 @@ class RouteIndex extends React.Component {
               <TextHeader/>
                 <div className="head-bttn">
                   <strong><NavLink className="button-white" to="/index">ADICIONAR COMPUTADOR</NavLink></strong>
-                  <strong><NavLink className="button-white" to="/computer_list">LISTA DE COMPUTADORES</NavLink></strong>
+                  <strong><NavLink onClick={this.handleClick} className="button-white" to="/computer_list">LISTA DE COMPUTADORES</NavLink></strong>
                 </div>
             </header>
             <div>
